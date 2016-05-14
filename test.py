@@ -17,7 +17,6 @@ class Testq08(unittest.TestCase):
                    'NSM')
         problem = problem.__iter__()
         solution = ['Case #1: 4\n']
-        import pdb; pdb.set_trace()
         self.assertEqual(q08.solve(problem), solution)
 
 
